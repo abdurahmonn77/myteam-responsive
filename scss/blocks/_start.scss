@@ -1,0 +1,45 @@
+/* START SECTION STYLE START  */
+
+.start-section {
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(246, 126, 126, 1);
+    background-image: url(../images/start-bg.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.result-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 63px;
+}
+.result-content h2 {
+    font-family: 'Livvic', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;   
+    color: rgba(1, 47, 52, 1);
+    margin-top: 76px;
+    margin-bottom: 76px;
+
+
+}
+.result-content a {
+    width: 153px;
+    height: 48px;
+    border: 2px solid rgba(1, 47, 52, 1);
+    color: rgba(1, 47, 52, 1);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+.result-content a:hover {
+    background-color: #002529;
+    color: white;
+}

@@ -1,0 +1,24 @@
+* {
+    font-family: 'Livvic', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Livvic', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(1, 78, 86, 1);
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    body {
+        max-width: 768px;
+    }
+    .container {
+        width: 768px;
+    }
+    main {
+        width: 768px;
+    }
+}
